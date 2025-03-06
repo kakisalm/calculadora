@@ -28,24 +28,19 @@ class Calculadora
                 Console.WriteLine("Subtração: " + (num1 - num2));
                 break;
 
-            case 5:
+                       case 5:
                 Console.WriteLine("Multiplicação: " + (num1 * num2));
                 break;
 
             case 6:
-                if (num2 == 0)
-                {
-                    Console.WriteLine("Erro: Não é possível dividir por zero.");
-                }
-                else
-                {
-                    Console.WriteLine("Divisão: " + (num1 / num2));
-                }
+                Console.WriteLine("Divisão: " + (num1 / num2));
                 break;
 
             default:
-                Console.WriteLine("Escolha inválida! Por favor, insira um número entre 1, 2, 5 e 6.");
+                Console.WriteLine("Escolha inválida! Por favor, insira um número entre 5 e 6.");
                 break;
         }
     }
+
+
 }
